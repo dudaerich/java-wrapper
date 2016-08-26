@@ -9,5 +9,5 @@ Wrapper for java binary which monitors standard output and if the process does n
 
 ## Build
 ```
-gcc -o java main.c
+gcc -lpthread -o java main.c
 ```
